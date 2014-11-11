@@ -17,7 +17,7 @@ namespace ControlWorks.PviServices
         IBrPviService BrPviService { get; set; }
         DeviceType DeviceType { get; set; }
 
-        public override void Connect();
-        public override void Connect(ConnectionType connectionType);
+        void Connect();
+        void Connect(ConnectionType connectionType);
     }
 }
