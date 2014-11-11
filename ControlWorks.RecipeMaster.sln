@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlWorks.RecipeMaster", "ControlWorks.RecipeMaster\ControlWorks.RecipeMaster.csproj", "{A0B0FF2F-6058-4F7C-91C1-1826E4101086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posaune.Utils", "Posaune.Utils\Posaune.Utils.csproj", "{6FCDC6F8-D330-48A9-BD01-A77A23C96FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlWorks.PviServices", "ControlWorks.PviServices\ControlWorks.PviServices.csproj", "{BAADC737-5FB3-4992-B4C9-CEC87EC327A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionResources", "SolutionResources", "{40FD9B72-3580-4C93-8CCB-311EF5E187C9}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionResources\BR.AN.PVIServices.dll = SolutionResources\BR.AN.PVIServices.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B0FF2F-6058-4F7C-91C1-1826E4101086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B0FF2F-6058-4F7C-91C1-1826E4101086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B0FF2F-6058-4F7C-91C1-1826E4101086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B0FF2F-6058-4F7C-91C1-1826E4101086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCDC6F8-D330-48A9-BD01-A77A23C96FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCDC6F8-D330-48A9-BD01-A77A23C96FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCDC6F8-D330-48A9-BD01-A77A23C96FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCDC6F8-D330-48A9-BD01-A77A23C96FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAADC737-5FB3-4992-B4C9-CEC87EC327A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAADC737-5FB3-4992-B4C9-CEC87EC327A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAADC737-5FB3-4992-B4C9-CEC87EC327A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAADC737-5FB3-4992-B4C9-CEC87EC327A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
